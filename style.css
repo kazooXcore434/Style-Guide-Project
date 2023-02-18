@@ -1,0 +1,124 @@
+.contentcard {
+    border: 1px solid;
+    border-color:black;
+    margin:10px;    
+    text-align: center;
+}
+
+
+/*Colors*/
+.contentcolors{
+    border: 1px solid;
+    border-color:black;
+    margin:10px;   
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+}
+
+.dustysun{
+    background-color: #e8a311;
+    color:transparent;
+    width: 200px;
+    margin: 10px;
+}
+.dustysun:hover{
+    transform: scale(1.1);
+    color: #36424B
+}
+.slate{
+    background-color: #36424B;
+    color: transparent;
+    width: 200px;
+    margin: 10px;
+}
+.slate:hover{
+    transform: scale(1.1);
+    color: #ffffff;
+}
+.morninggray{
+    background-color: #bac5cd;
+    color: transparent;
+    width: 200px;
+    margin: 10px;
+}
+.morninggray:hover{
+    transform: scale(1.1);
+    color: #405d78;
+}
+.duskblue{
+    background-color: #405d78;
+    color: transparent;
+    width: 200px;
+    margin: 10px;
+}
+.duskblue:hover{
+    transform: scale(1.1);
+    color:#e8a311;
+}
+.white{
+    background-color: #ffffff;
+    color: transparent;
+    width: 200px;
+    border: 1px black solid;
+    margin: 10px;
+}
+.white:hover{
+    transform: scale(1.1);
+    color: #36424B;
+}
+
+/*Fonts*/
+h1{
+    font-family: "Bitter", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+h2{
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    font-size: 30px;
+}
+p{
+    font-family: "Bitter";
+    font-size: 18px;
+    font-weight: 400;
+}
+#colorh2{
+    text-align: center;
+}
+.Font1{
+    border: 1px black dashed;
+   
+    padding:10px;
+}
+
+.Font2{
+    padding: 10px;
+}
+.Font1 p{
+    font-family: "Bitter";
+}
+.Font2 p{
+    font-family: "Montserrat Alternates";
+}
+
+/* Text Styling */
+.h1box{
+    border: 1px black dashed;
+    padding: 10px
+}
+.h2box{
+    border: 1px black dashed;
+    padding: 10px
+}
+.pbox{
+    border: 1px black dashed;
+    padding: 10px
+}
+.pbox h2{
+    font-family: "Bitter";
+}
